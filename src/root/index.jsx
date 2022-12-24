@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import { Container } from './style';
 
 class Root extends Component {
   render() {
     return (
-      <div>Root</div>
+      <Container>Root</Container>
     )
   }
 }
