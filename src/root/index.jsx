@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { Container } from './style';
+import UserActive from '../components/UserActive';
 
 class Root extends Component {
   render() {
     return (
-      <Container>Root</Container>
+      <div></div>
     )
   }
 }
