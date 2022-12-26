@@ -1,0 +1,12 @@
+.Headerimg {
+  float: right;
+  position: absolute;
+  right: 60px;
+}
+body {
+  margin-left: 100px;
+}
+.robothand {
+  width: 669px;
+  height: 644px;
+}
