@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Container, ContainerWrapper, WrapperMene, LogoImg, ImgLogo, TitleText, Subtitle, SubText, Line, Left, CopyRight, LeftSpan, Right, Icons} from "./style";
-import Img from "../../Assets/Images/logo.png";
-import Instagram from "../../Assets/Images/instagram.png"
-import Twitter from "../../Assets/Images/twitter.png"
-import Facebook from "../../Assets/Images/facebook.png"
-import In  from "../../Assets/Images/In.png"
+import Img from "../../assets/images/logo.png";
+import Instagram from "../../assets/images/instagram.png"
+import Twitter from "../../assets/images/twitter.png"
+import Facebook from "../../assets/images/facebook.png"
+import In  from "../../assets/images/In.png"
 
 class Footer extends Component {
   render() {

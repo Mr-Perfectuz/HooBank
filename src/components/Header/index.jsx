@@ -1,15 +1,13 @@
 import React, { Component } from "react";
 import { Wrapper, Headliner, Generation, Container, Header, P } from "./style";
-import stil from "./stil.css";
 class HEADER extends Component {
   render() {
     return (
-      <div>
         <Container>
           <Wrapper>
             <Headliner>
               <img
-                src={require("../../Assets/Images/Discount.png")}
+                src={require("../../assets/images/Discount.png")}
                 alt="fireSpot"
               />
               <p>20% DISCOUNT FOR 1 MONTH ACCOUNT</p>
@@ -18,7 +16,7 @@ class HEADER extends Component {
               The Next
               <img
                 className="Headerimg"
-                src={require("../../Assets/Images/Headerimg.png")}
+                src={require("../../assets/images/Headerimg.png")}
                 alt=""
               />
               <Generation>Generation</Generation> Payment Method.
@@ -31,11 +29,10 @@ class HEADER extends Component {
           </Wrapper>
           <img
             className="robothand"
-            src={require("../../Assets/Images/robothand.png")}
+            src={require("../../assets/images/robothand.png")}
             alt=""
           />
         </Container>
-      </div>
     );
   }
 }

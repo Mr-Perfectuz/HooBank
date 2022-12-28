@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  width: 1440px;
-
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -10,8 +9,10 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  width: 670px;
-  height: 303px;
+  max-width: 1440px;
+  width: 100%;
+  height: 303px; 
+  padding: 0 135px;
 `;
 
 const Headliner = styled.div`
@@ -38,5 +39,4 @@ const P = styled.p`
   line-height: 170%;
   color: rgba(255, 255, 255, 0.7);
 `;
-const Wrapper2 = styled.div``;
 export { Wrapper, Headliner, Generation, Container, Header, P };

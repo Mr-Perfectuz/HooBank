@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  width: 1170px;
+  max-width: 1440px;
+  width: 100%;
   height: 293px;
-  left: 1305px;
-  top: 3790px;
+  margin: auto;
   background: linear-gradient(
     144.39deg,
     #ffffff -278.56%,
